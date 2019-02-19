@@ -1,17 +1,37 @@
 @font-face {
   font-family: "modular14";
-  src: url(/Users/juliachang/Desktop/personalsite/fonts/MODULAR-14.otf);
+  src: url(/fonts/MODULAR-14.otf);
 }
 
 * {
   font-family: "modular14";
 }
 
-
 h1 {
 	position: relative;
   text-align: center;
 	color: rgb(59, 184, 255, 0.5);
   font-size: 100px;
-  text-shadow: 5px 5px rgb(255, 0, 180, 0.5)
+  text-shadow: 5px 5px rgb(255, 0, 180, 0.5);
+  margin-bottom: 15px
+}
+
+li {
+  list-style-type: none;
+  flex-grow: 1
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 0, 180);
+  font-size: 30px
+}
+
+a:hover {
+  color: rgb(59, 184, 255);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
 }

@@ -14,14 +14,10 @@ $contact = "";
   <title> Julia Chang</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all">
-  <?php include("includes/nav.php"); ?>
 </head>
 
 <h1> Julia Jiyoung Chang </h1>
-
-
-
-
+<?php include("includes/nav.php"); ?>
 
 
 </html>
