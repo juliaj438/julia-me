@@ -7,6 +7,11 @@
   font-family: "modular14";
 }
 
+body {
+  background-color: rgb(59, 184, 255, 0.2);
+}
+
+
 h1 {
 	position: relative;
   text-align: center;
@@ -34,4 +39,60 @@ a:hover {
 ul {
   display: flex;
   flex-direction: row;
+}
+
+img {
+  width: 100%
+}
+
+div:hover {
+  background-color: white 0.5
+}
+
+#aboutpicture {
+  width: 40%;
+  padding-top: 30px
+}
+
+p {
+  color: navy;
+  padding-top: 30px
+}
+
+.container {
+  display: flex
+}
+
+div {
+  justify-content: center
+}
+
+.currentpage {
+  color: rgb(59, 184, 255);
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: darkblue
+}
+
+.socials {
+  text-decoration: none;
+  text-align: center;
+}
+
+#socials {
+  border: 1.5px solid rgb(59, 184, 255);
+  padding-bottom: 20px;
+  margin: 10px
+}
+
+.slinks {
+  color: rgb(59, 184, 255);
+  
+}
+
+#socials:hover {
+  background-color: white
 }

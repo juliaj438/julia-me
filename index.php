@@ -16,8 +16,9 @@ $contact = "";
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all">
 </head>
 
-<h1> Julia Jiyoung Chang </h1>
+<a href="index.php"><h1>Julia Jiyoung Chang</h1></a>
 <?php include("includes/nav.php"); ?>
 
 
 </html>
+
